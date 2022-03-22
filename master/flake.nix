@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-webgl-master.flake = false;
+  inputs.src-webgl-master.ref   = "refs/heads/master";
   inputs.src-webgl-master.owner = "stisa";
-  inputs.src-webgl-master.ref   = "master";
   inputs.src-webgl-master.repo  = "webgl";
   inputs.src-webgl-master.type  = "github";
   
